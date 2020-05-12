@@ -75,6 +75,7 @@ public class StepDef {
 	public void validate_URL_is_displaying(String expectedURL) throws Throwable {
 	String actualURL =   driver.getCurrentUrl();
 	assertions.assertEqual(expectedURL, actualURL);
+	System.out.println("PASS");
 	
 	}
 	
